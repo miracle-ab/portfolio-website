@@ -442,6 +442,9 @@ body.dark-theme {
 /* Breakpoints */
 /* For small devices */
 @media screen and (max-width: 320px) {
+  body {
+		background-color: #B39DDB;
+	}
   .container {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -463,6 +466,9 @@ body.dark-theme {
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
+  body {
+		background-color: #CE93D8;
+	}
   .projects_content{
     grid-template-columns: 332px;
     justify-content: center;
@@ -475,6 +481,9 @@ body.dark-theme {
 }
 
 @media screen and (min-width: 776px) {
+  body {
+		background-color: #F48FB1;
+	}
   .projects_content, .skills_content {
     grid-template-columns: repeat(2, 332px);
   }
@@ -487,6 +496,9 @@ body.dark-theme {
 
 /* For large devices */
 @media screen and (min-width: 992px) {
+  body {
+		background-color: var(--body-color);
+	}
   .container {
     margin-left: auto;
     margin-right: auto;
